@@ -112,6 +112,11 @@ body {
   background-color: var(--cyan-600);
 }
 
+.button-cyan:focus {
+  outline: 3px solid var(--cyan-600);
+  outline-offset: 2px;
+}
+
 .button-gap {
   display: flex;
   flex-direction: row;
@@ -132,6 +137,11 @@ body {
 
 .button-purple {
   background-color: var(--purple-600);
+}
+
+.button-purple:focus {
+  outline: 3px solid var(--purple-600);
+  outline-offset: 2px;
 }
 
 .button-purple span {
@@ -363,7 +373,7 @@ body {
     padding: 4rem 2rem 2rem 2rem;
   }
 
-  .button-gap{
+  .button-gap {
     flex-direction: column;
   }
 
